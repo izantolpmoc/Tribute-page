@@ -22,6 +22,7 @@
 max-width: 100%;
 height: auto;
 justify-content: center;
+display: block;
 }
 h1{
     font-family:'Marcellus', serif;
@@ -66,6 +67,17 @@ h1{
     color: rgb(248, 241, 198);
 }
 
+#img-caption {
+    font-style: italic;
+    color: gray;
+}
+
+#tribute-info {
+    max-width: 100%;
+    margin-left: 20%;
+    margin-right: 20%;
+}
+
     </style>
 </head>
 <body>
@@ -78,7 +90,7 @@ h1{
 
         <div id="img-div">
          <figure> <img id="image" src="https://variety.com/wp-content/uploads/2013/09/hayao-miyazaki.jpg" alt="Hayao Miyazaki">
-          <figcaption id="img-caption">Hayao Miyazaki in 2013, announcing his retirement.</figcaption> </figure>
+          <figcaption id="img-caption">Hayao Miyazaki in 2013, announcing his retirement from the animation industry.</figcaption> </figure>
           </div>
 
           <div id="quote">
@@ -88,9 +100,10 @@ h1{
         <p id="name">宮崎 駿</p>
 
         <div id="tribute-info">
-          <p>Throughout his carreer, Hayao Miyazaki has created many iconic animation movies known throughout the world</p>
-        <p>You can find more information about him on his <a href="https://en.wikipedia.org/wiki/Hayao_Miyazaki" target="blank">Wikipedia page</a></p>
+          <p>Throughout his carreer, Hayao Miyazaki has created many iconic animation movies known throughout the world. Among which, My neighbor Totoro, Princess Mononoke, Kiki's delivery service, and more!</p>
+        <p>You can find more information about him on his <a id="tribute-link" href="https://en.wikipedia.org/wiki/Hayao_Miyazaki" target="_blank">Wikipedia page.</a></p>
         </div>
              </main>
+             <script src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js"></script>
 </body>
 </html>
